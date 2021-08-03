@@ -1,0 +1,36 @@
+.banner {
+  background: #1d2338;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 250px;
+}
+.author-info {
+  top: 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.author-info img {
+  position: relative;
+  width: 150px;
+  top: 50%;
+  height: 150px;
+  border-radius: 50%;
+  background-position: center;
+  object-fit: cover;
+}
+.username {
+  color: #fc077b;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.userType {
+  color: #fc077b;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}

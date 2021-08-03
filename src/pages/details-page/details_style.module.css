@@ -1,0 +1,12 @@
+.repo_details {
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 500px;
+  min-height: 70%;
+  border-radius: 0px 00px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  background: #005296;
+}

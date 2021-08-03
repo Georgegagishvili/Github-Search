@@ -1,0 +1,10 @@
+.main_bg {
+  background: linear-gradient(to top, #cfd9df, #e2ebf0);
+  width: 100%;
+  min-height: 100%;
+  max-height: max-content;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

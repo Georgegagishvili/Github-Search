@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.detailed_card p {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #fed700;
+  font-weight: bold;
+}
+.repo_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-family: "Roboto";
+}
+.description {
+  width: 400px !important;
+}
+.repo_info span {
+  width: 200px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+.repo_info p {
+  text-align: center;
+  width: max-content;
+}
+.repo_info a {
+  width: 440px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.repo_info a:hover {
+  color: #ffa45e;
+}
+
+@media only screen and (max-width: 600px) {
+  .repo_info a {
+    width: 420px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .repo_info a {
+    width: 280px;
+  }
+}

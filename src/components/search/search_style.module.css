@@ -1,0 +1,30 @@
+.main_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single_repository_link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #494949;
+  font-size: 20px;
+}
+.single_repository_link:hover {
+  color: #fc077b;
+  transition: 0.1s;
+}
+
+.repo_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single_repository {
+  padding: 5px;
+  border-radius: 8px;
+  margin: 10px;
+  border: 1px solid black;
+}
